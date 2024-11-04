@@ -14,7 +14,7 @@ public class PolymorphismChild extends Polymorphism1 {
 		// TODO Auto-generated method stub
 		
 		PolymorphismChild  obj=new PolymorphismChild();
-				obj.display(20, 10);;
+				obj.display(20, 10);
 		
 
 	}

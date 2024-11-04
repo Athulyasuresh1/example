@@ -7,9 +7,24 @@ public class ExceptionEx1 {
       int a=10;
       int b=0;
      // System.out.println("hello");
+      try {
+    	  
+      
       int d=a/b;
-      System.out.println("hello");
-      System.out.println(d);
+      }
+      catch(ArithmeticException ae)
+      {
+    	  b=5;
+       int  e=a/b;
+       System.out.println(e);
+      }
+      finally
+      {
+    	System.out.println("End of the program");  
+      }
+      }
+      //System.out.println("hello");
+      //System.out.println(d);
 	}
 
-}
+
